@@ -23,7 +23,7 @@
             color: #fff;
         } 
 
-        h2{
+        h1{
             color: #2196f3;
             margin-bottom: 30px;
         }
@@ -63,7 +63,7 @@
     </style>
 </head>
 <body>
-    <h2 class="text-center">EMI Calculator</h2>
+    <h1 class="text-center">EMI Calculator</h1>
     <div class="jumbotron">
         <form>
             <div class="form-group">
@@ -76,8 +76,10 @@
                     Amount You Need:   </label>
                     <span class=" text-right label label-primary quantityNos">1</span>
                 <input type="range" class="form-control" name="quantity" value="1" min="10000" max="1500000" step="10000">
-                <span class="initial">10000</span>
-                <span class="final">1500000</span>
+                <div style="display: flex; justify-content: space-between;">
+                    <span class="initial">10K</span>
+                    <span class="final">15L</span>
+                </div>
             </div>
         </form>
 
